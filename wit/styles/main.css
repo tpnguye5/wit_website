@@ -1,33 +1,113 @@
 body{
-	background:#ede8e8;
-	font-family:arial;
-	text-align: center;
+	overflow-x: hidden;
+	color: #505962;
+}
+.navbar{
+	text-transform: uppercase;
 }
 
-h1{
-	text-align: center;
-}
 
-h3{
-	height: 100px;
-	background: #ff9999;
+.caption{
 	width: 100%;
-	z-index: 10;
+	max-width: 100%;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+}
+
+.caption h3{
+	color: white;
+	font-size: 2.4rem;
+	text-transform: uppercase;
+}
+
+h3.heading{
 	text-align: center;
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	margin-bottom: 1.9rem;
 }
 
-#banner{
-	width: 100%;
-	height: 500px;
-	position: fixed;
-	top: 100px;
-	background: url("../img/wit_flyer.jpg");
+.home-inner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
-#content{
-	width: 100%;
+.home-inner header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.home-inner container {
+  position: relative;
+  z-index: 2;
+}
+
+.home-inner overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+
+.landing{
 	position: relative;
-	top: 400px;
+	width: 100%;
+	height: 100vh;
+	display: table;
 	background: #999;
-	height: 1500px;
+	z-index: -1;
+}
+
+.home-wrap{
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.home-inner {
+	position: fixed;
+	display: table;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+			transform: translateZ(0);
+	will-change: transform;
+}
+
+.caption{
+	width: 100%;
+	max-width:100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
 }

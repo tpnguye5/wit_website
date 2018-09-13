@@ -1,53 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>USFCA Women in Technology</title>
-		<link href="styles/main.css" rel="stylesheet"  type="text/css"/>
-	</head>
+ 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>USFCA Women in Technology</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
 
-	<body>
-		<ul class="nav">
-			<li><a href="#">Mission</a></li>
-			<li><a href="#">Connect</a></li>
-			<li><a href="#"></a></li>
-			<li><a href="#">Resources</a></li>
-		</ul>
-		<div id="container">
-			<h3>WiT</h3>
+<body data-spy="scroll" data-target="#menu">
+	<div id="Home">
 
-			<div id="banner">
-				<video autoplay loop muted>
+	<!---Navigation--->
+	<nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+	<div class="container-fluid">
+		<span class="navbar-brand mb-0 h1">WiT</span>
 
-				<h1>Women in Technology</h1>
-				<h2>University of San Francisco</h2>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+		 	<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="menu">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#mission">Our Mission</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#events">Events</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#connect">Connect</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#industry">Industry</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#resources">Resources</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</nav>	
+
+		<!---Start Landing Page--->
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner">
+					<header>
+					  <div class="overlay"></div>
+					  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+					    <source src="img/scriptstyping.mp4">
+					  </video>
+
+					  <div class="container h-100">
+					    <div class="d-flex text-center h-100">
+					      <div class="my-auto w-100 text-white">
+					        <h1 class="display-3">USFCA Women in Technology</h1>
+					      </div>
+					    </div>
+					  </div>
+					</header>
+				</div>
 			</div>
-
-			<div id="content">
-				<h2>Our Mission</h2>
-				
-				<img src="img/fist.png" width="100" height="100">
-				<p>Empower women in technology</p>
-				
-				<img src="img/group.png" width="100" height="100">
-				<p>Build an inclusive community</p>
-				
-				<img src="img/teaching.png" width="100" height="100">
-				<p>Promote success both academically and professionally.</p>
-
-				<h2>2018-2019 EBoard</h2>
-				<h2>Connect with Us</h2>
-				<img src="img/facebook_icon.png" width="100" height="100">
-				<img src="img/twitter_icon.png" width="100" height="100">
-				<img src="img/insta_icon.png" width="100" height="100">
-
-				<h2>Contact Us</h2>
-				<p>If you have any questions or feedback, please email us at <a href="mailto:wogrammersusfca@gmail.com"> wogrammersusfca@gmail.com </a>.</p>
-			</div>
-
 		</div>
 
-		
-	</body>
+	<!---Start Landing page caption--->
+	
+	</div><!---End of Home Section--->
 
+<!---Start Our Mission section--->
+<div id="mission">
+	<div class="jumbotron">
+		<h3 class="heading">Our Mission</h3>
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<img src="img/fist.png" width="100" height="100">
+				<p>Empower women in technology</p>
+			</div>
+
+			<div class="col-md-4 text-center">
+				<img src="img/group.png" width="100" height="100">
+				<p>Build an inclusive community and raise awareness</p>
+			</div>
+
+			<div class="col-md-4 text-center">
+				<img src="img/teaching.png" width="100" height="100">
+				<p>Promote success both academically and professionally</p>
+			</div><!---End row--->
+		</div><!---end of row--->
+	</div><!---End of Jumbotron--->
+</div>
+
+<!---Start Events--->
+<div id="events" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#events" data-slide-to="0" class="active"></li>
+		<li data-target="#events" data-slide-to="1"></li>
+		<li data-target="#events" data-slide-to="2"></li>
+	</ol>
+
+  	<div class="carousel-inner" role="listbox">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="img/blue.jpg" alt="tech flyer"/>
+			<div class="carousel-caption d-none d-md-block">
+				<h1>Women in Tech 1st Meeting</h1>
+				<h4>Free Pizza!!!</h4>
+				<p><strong>Where:</strong> LS 307</p>
+				<p><strong>When:</strong> Thursday, September 13</p>
+				<p><strong>Time:</strong> 11:45AM to 12:30PM</p>
+			</div>
+	    </div>
+
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/genWit.jpg" alt="general wit meeting"/>
+			<div class="carousel-caption d-none d-md-block">
+				<h1>Women in Tech Weekly Meetings</h1>
+				<p>Where: HRN 411</p>
+				<p>When: Tuesdays</p>
+				<p>Time: 11:45AM to 12:30PM</p>
+			</div>
+	    </div>
+
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="img/wednesdays.JPG" alt="general wit meeting"/>
+	      <div class="carousel-caption d-none d-md-block">
+				<h1>Wednesdays Technical Prep Hangout</h1>
+				<p>Where: HRN 411</p>
+				<p>When: Wednesdays</p>
+				<p>Time: 8:00PM to 8:30PM</p>
+			</div>
+	    </div>
+	</div>
+
+  	<a class="carousel-control-prev" href="#events" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  	</a>
+
+  	<a class="carousel-control-next" href="#events" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  	</a>
+</div>
+<!--- End of Event section--->
+
+<!---start connect section--->
+<div id="connect">
+	<div class="container-fluid footer">
+		<div class="row">
+		<div class="col-md-3">
+		<div class="col-md-6 text-center">
+			<h1>Connect with Us</h1>
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		</div>
+		</div>
+		</div>
+	</div>
+
+
+
+</div>
+
+<!---start industry section--->
+<div id="industry">
+	<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 text-center">
+		<h1>Industry</h1>
+		<p>Interested in sponsoring WiT? Please email us and our External Relations Chair will get back to you with more information.</p>
+		<p>We have many, different opportunities for companies to get involved--from alumni panels, industry panels, hackathons, talks, workshops, Grace Hopper Celebration scholarships, and more! We are always open to suggestions and feedback!</p>
+
+		<h2>Recent Contributions</h2>
+		<img src="img/Craig-Newmark.jpg" alt="Craig Newmark"  width="800" height="600">
+		<p>WiT would like to give a <strong>BIG</strong> thank you to Craig Newmark, founder of craigslist, for his gift of $10,000!!! This gift will directly impact many areas within the Computer Science Department. For instance, some of the funds will be used to send students to the Grace Hopper Celebration, an amazing celebration to empower women in tech, and will help increase the number of girls that are able to participate in Girl Tech Power, a computer science summer workshop for middle school and high school girls.</p>
+	</div>
+	</div>
+	</div>	
+</div>
+
+<!---start resource--->
+<div id="resources">
+	<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 text-center">
+		<h1>Resources</h1>
+</div>
+
+<!---start contact section--->
+<div id="contact">
+	<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 text-center">
+		<h1>Contact Us</h1>
+		<p>If you have any questions or feedback, please email us at <a href="mailto:wogrammersusfca@gmail.com"> wogrammersusfca@gmail.com </a>.</p>
+	</div>
+	</div>
+</div>
+
+<!---Script Source Files--->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>	
+
+</body>
 </html>
